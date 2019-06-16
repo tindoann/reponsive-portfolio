@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box; 
+  margin: 0 auto; 
+}
+
+body { 
+  font-family: Georgia, Times, 'Times New Roman', serif; 
+  background-image: url("../../assets/images/floor-tile.png");
+}
+
+header {
+
+  width: 100%; 
+  margin-bottom: 40px; 
+  background-color: #fff; 
+  height: 105px; 
+  border-bottom: 2px solid #ccc; 
+}
+
+.wrapper {
+  width: 960px; 
+}
+
+
+nav {
+  float:right;
+  background: #fff; 
+  margin-bottom: 0; 
+}
+
+hr {
+  font-size: 22px; 
+  margin-bottom: 25px; 
+}
+
+.name {
+  margin: 0;
+  text-align: center; 
+  font-weight: 800px; 
+  background: #4aaaa5; 
+  padding: 25px 0px; 
+  color: #fff; 
+  width: 350px; 
+  height: 105px; 
+  float: left; 
+}
+
+ul li {
+  list-style-type: none; 
+  line-height: 100px; 
+  margin: 0; 
+  padding: 0; 
+  color: #777; 
+  font-size: 12px; 
+}
+
+ul li {
+  color: #777;
+  font-size: 18px; 
+  float: right; 
+}
+
+ul a {
+  color: #777; 
+  padding: 10px; 
+  text-decoration: none; 
+
+}
+
+a { 
+  color: #777; 
+}
+
+a:link {
+  color: #777; 
+}
+
+main {
+  width: 960px; 
+  height: 500px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+  background: #fff; 
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
+  border: 1px solid #cccccc; 
+}
+
+.clearfix::after {
+  content: ''; 
+  display: block; 
+  clear: both; 
+}
+
+main h1 {
+  font-family: Georgia, Times, 'Times New Roman', serif; 
+  padding-right: 0px; 
+  padding-top: 25px;
+  padding-bottom: 25px;  
+  text-align: left; 
+  font-weight: 800; 
+  color: #4aaaa5; 
+}
+
+img {
+  float: left; 
+  margin: 20px; 
+}
+
+article > p {
+  font-size: 22px; 
+  margin: 20px 0; 
+  text-align: left; 
+  color: #cccccc; 
+}
+
+footer {
+  margin-top: 100px 0; 
+  width: 100%;
+	height: 70px;
+  background-color: #666;
+  text-align: center; 
+  font-size: 14px; 
+	bottom: 0;
+	color: #ddd;
+	padding-top: 40px;
+  border-top: 10px solid #4aaaa5;
+  position: absolute; ; 
+  bottom: 0; 
+}
+
